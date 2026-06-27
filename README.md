@@ -40,7 +40,7 @@ mcp-sqlite-chat/
   server.py       — MCP server: exposes the SQLite DB as tools and resources
   client.py       — Chat interface: connects to the MCP server and Groq
   init_db.py      — Creates users.db with sample data
-  inspect.py      — Utility to inspect the database directly
+  db_inspect.py   — Utility to inspect the database directly
   users.db        — SQLite database (generated after running init_db.py)
   requirements.txt
   .env.example
@@ -52,7 +52,7 @@ mcp-sqlite-chat/
 
 ### 1. Create and activate a virtual environment
 
-From the project root (`mcp_1/`):
+From your project root (e.g. `/home/me/my-project/`):
 
 ```bash
 python3 -m venv venv
