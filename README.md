@@ -52,9 +52,11 @@ mcp-sqlite-chat/
 
 ### 1. Create and activate a virtual environment
 
+From the project root (`mcp_1/`):
+
 ```bash
-python3 -m venv /home/abdu/Projects/ai-bot/mcp_1/venv
-source /home/abdu/Projects/ai-bot/mcp_1/venv/bin/activate
+python3 -m venv venv
+source venv/bin/activate
 ```
 
 ### 2. Install dependencies
@@ -97,8 +99,8 @@ Database created at: .../users.db
 ## Running
 
 ```bash
-# Make sure the venv is active
-source /home/abdu/Projects/ai-bot/mcp_1/venv/bin/activate
+# Make sure the venv is active (from the project root)
+source venv/bin/activate
 
 # Start the chat
 python client.py
